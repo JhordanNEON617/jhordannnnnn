@@ -1,0 +1,75 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.header-navbar {
+    margin-bottom: 0;
+}
+
+/* Estilos para el botón de "Mostrar más" */
+.toggle-btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3; 
+
+}
+.toggle-text {
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; /* Borde gris claro */
+    padding: 15px;
+    font-size: 0.95rem;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+.toggle-text.show {
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+
+
+@media (max-width: 576px) {
+    header {
+        padding: 20px 0;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
